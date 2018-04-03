@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Word" />
+
+    <EditText
+        android:id="@+id/txtNewWordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Word"
+        android:inputType="none|textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Synonym" />
+
+    <EditText
+        android:id="@+id/txtNewSynonym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Synonym"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSubmitWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSubmitWordClick"
+        android:text="Submit" />
+</LinearLayout>
